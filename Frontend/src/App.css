@@ -7,7 +7,8 @@
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #e5e5e5;
+  /* background: #e5e5e5; */
+  background:#d3b4defa;
 }
 .btn {
   padding: 7px 20px;
@@ -582,7 +583,8 @@ input[type="time"]:before {
   margin-right: 0.5em;
 }
 .logo-img{
-  width: 150px;
+  width: 266px;
+  height: 57px;
 }
 footer .logo-img{
   width: 100%;

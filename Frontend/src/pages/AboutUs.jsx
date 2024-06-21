@@ -1,17 +1,16 @@
-import React from 'react'
-import Hero from '../components/Hero';
-import Biography from '../components/Biography';
-
+import React from "react";
+import Hero from "../components/Hero";
+import Biography from "../components/Biography";
 const AboutUs = () => {
   return (
     <>
       <Hero
-        title={"Learn More About Us | ZeeCare Medical Institute"}
-        imgUrl={"/about.png"}
+        title={"Welcome to the Govind Health Care Centre | Affordable and trustable "}
+        imageUrl={"/about.png"}
       />
-      <Biography imgUrl={"/whoweare.png"} />
+      <Biography imageUrl={"/whoweare.png"} />
     </>
-  )
-}
+  );
+};
 
-export default AboutUs
+export default AboutUs;

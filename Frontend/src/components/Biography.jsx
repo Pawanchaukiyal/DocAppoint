@@ -1,23 +1,40 @@
-import React from 'react'
+import React from "react";
 
-const Biography = ({imgUrl}) => {
+const Biography = ({imageUrl}) => {
   return (
-    <div className='container biography'>
-      <div className="banner">
-        <img src={imgUrl} alt="about" />
+    <>
+      <div className="container biography">
+        <div className="banner">
+          <img src={imageUrl} alt="whoweare" />
+        </div>
+        <div className="banner">
+          <p>Biography</p>
+          <h3>Who We Are</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            blanditiis sequi aperiam. Debitis fugiat harum ex maxime illo
+            consequatur mollitia voluptatem omnis nihil nesciunt beatae esse
+            ipsam, sapiente totam aspernatur porro ducimus aperiam nisi. Ex
+            magnam voluptatum consectetur reprehenderit fugiat recusandae aut
+            similique illum natus velit, praesentium nostrum nesciunt. Deleniti,
+            nesciunt laboriosam totam iusto!
+          </p>
+          <p>We are all in 2024!</p>
+          <p>We are working on a MERN STACK PROJECT.</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+            assumenda exercitationem accusamus sit repellendus quo optio dolorum
+            corporis corrupti. Quas similique vel minima veniam tenetur
+            obcaecati atque magni suscipit laboriosam! Veniam vitae minus nihil
+            cupiditate natus provident. Ex illum quasi pariatur odit nisi
+            voluptas illo qui ipsum mollitia. Libero, assumenda?
+          </p>
+          <p>Lorem ipsum dolor sit amet!</p>
+          <p>Coding is fun!</p>
+        </div>
       </div>
-      <div className="banner">
-        <p>Biography</p>
-        <h3>Who we are?</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quod sit doloremque atque molestiae, iure nisi eius nostrum asperiores natus delectus minus laboriosam sint commodi autem repellendus error dicta, laudantium reiciendis distinctio consectetur. Esse, ipsam. Velit perferendis nulla cumque ipsa adipisci officiis! Tempora ratione adipisci est esse, officiis laborum minima temporibus vero.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis soluta nesciunt.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, laudantium.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus animi molestiae consequuntur, vitae harum voluptas expedita ipsa reiciendis iure.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, beatae?</p>
-        <p>Lorem, ipsum dolor.</p>
-      </div>
-    </div>
-  )
-}
+    </>
+  );
+};
 
-export default Biography
+export default Biography;
